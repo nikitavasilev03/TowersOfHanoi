@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Towers
 {
-    public partial class Form1 : Form
+    public partial class CountRingsDialog : Form
     {
-        public Form1()
+        public CountRingsDialog()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2((int)numericUpDown1.Value);
+            MainWindow form2 = new MainWindow((int)numericUpDown1.Value);
             Hide();
             if (form2.ShowDialog(this) != DialogResult.OK)
                 Application.Exit();

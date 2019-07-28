@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Towers
 {
-    public partial class Form2 : Form
+    public partial class MainWindow : Form
     {
         private long time; // время в милисекундах
         private int step; // количесво шагов
         private Tower tower1, tower2, tower3; // 3 башни на каждую панель
         private int countRing; // Количесво всех колец
         private Ring activeRing; // Активное кольцо
-        public Form2(int count)
+        public MainWindow(int count)
         {
             InitializeComponent();
             countRing = count;
@@ -87,7 +87,7 @@ namespace Towers
             Work(tower3, e.X, e.Y);
             if (tower3.CountRing == countRing) // Если все кольца в последней башне
             {
-                Form3 form3 = new Form3(label4.Text, label2.Text);
+                WinDialog form3 = new WinDialog(label4.Text, label2.Text);
                 DialogResult = form3.ShowDialog(this); // Возвращаемся на первую форму
             }
         }

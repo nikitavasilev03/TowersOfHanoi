@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Towers
 {
-    public partial class Form3 : Form
+    public partial class WinDialog : Form
     {
-        public Form3(string steps, string time)
+        public WinDialog(string steps, string time)
         {
             InitializeComponent();
             label4.Text = steps;
