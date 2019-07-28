@@ -1,0 +1,5 @@
+﻿1>------ Сборка начата: проект: Towers, Конфигурация: Debug Any CPU ------
+1>C:\Tools\Google\Учеба\ПЯВУ\Visual Studio\Projects\C#\Towers\Towers\Form2.cs(19,22,19,32): warning CS0649: Полю "Form2.ActiveRing" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null.
+1>C:\Tools\Google\Учеба\ПЯВУ\Visual Studio\Projects\C#\Towers\Towers\Form2.cs(16,21,16,25): warning CS0414: Полю "Form2.step" присвоено значение, но оно ни разу не использовано.
+1>  Towers -> C:\Tools\Google\Учеба\ПЯВУ\Visual Studio\Projects\C#\Towers\Towers\bin\Debug\Towers.exe
+========== Сборка: успешно: 1, с ошибками: 0, без изменений: 0, пропущено: 0 ==========
